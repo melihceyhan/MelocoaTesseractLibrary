@@ -54,15 +54,15 @@
     </Reference>
     <Reference Include="hOcr2Pdf, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\hocrtopdf-30741\hocrtopdf\bin\Debug\hOcr2Pdf.dll</HintPath>
+      <HintPath>ApplicationFiles\hOcr2Pdf.dll</HintPath>
     </Reference>
     <Reference Include="HtmlAgilityPack, Version=1.4.9.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\hocrtopdf-30741\hocrtopdf\bin\Debug\HtmlAgilityPack.dll</HintPath>
+      <HintPath>ApplicationFiles\HtmlAgilityPack.dll</HintPath>
     </Reference>
     <Reference Include="itextsharp, Version=5.5.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\hocrtopdf-30741\hocrtopdf\bin\Debug\itextsharp.dll</HintPath>
+      <HintPath>ApplicationFiles\itextsharp.dll</HintPath>
     </Reference>
     <Reference Include="SharpCompress, Version=0.15.1.0, Culture=neutral, PublicKeyToken=afb0a02973931d96, processorArchitecture=MSIL">
       <HintPath>..\packages\SharpCompress.0.15.1\lib\net45\SharpCompress.dll</HintPath>
