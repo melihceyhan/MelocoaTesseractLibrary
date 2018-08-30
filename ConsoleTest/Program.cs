@@ -1,12 +1,7 @@
 ﻿
 using MelocoaTesseractLibrary;
 using MelocoaTesseractLibrary.HelperClasses;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleTest
 {
@@ -14,10 +9,10 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            var sourcePdfPath = "";
-            var finalPdfPath = "";
-            var finalPdfPath2 = "";
-            var finalTextPath = "";
+            var sourcePdfPath = ""; //@"C:\Users\Melocoa\Desktop\devops\a.pdf";
+            var finalPdfPath =  ""; //@"C:\Users\Melocoa\Desktop\devops\b.pdf"; ;
+            var finalPdfPath2 = ""; //@"C:\Users\Melocoa\Desktop\devops\c.pdf"; ;
+            var finalTextPath = ""; //@"C:\Users\Melocoa\Desktop\devops\d.txt"; ;
             var progress = new OcrProcess();
             var result  = progress.Ocr(sourcePdfPath, ResultTypeEnum.All);
             File.WriteAllBytes(finalPdfPath, result.OcredBest);
